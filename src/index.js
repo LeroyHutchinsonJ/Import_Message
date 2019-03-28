@@ -27,15 +27,15 @@ var Dialog = ({ children }) => {
 };
 
 var Title = () => {
-  return <div>HeadStuff</div>;
+  return <div>This is important</div>;
 };
 
 var Body = () => {
-  return <div>Body Stuff</div>;
+  return <div>Here is some important information</div>;
 };
 
 var Footer = () => {
-  return <div>Footer Stuff</div>;
+  return <button className="button">Close</button>;
 };
 
 //Create a custom proptype checker to make sure that the children of dialog acccepts, the right types
