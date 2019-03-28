@@ -19,9 +19,9 @@ var Dialog = ({ children }) => {
 
   return (
     <div>
-      <h2>{childArray[0]}</h2>
-      {childArray[1]}
-      {childArray[2]}
+      <h2 className = 'title'>{childArray[0]}</h2>
+    <div className ='dialogBorder'><div className = 'dialogText'>{childArray[1]}</div></div> 
+      <div className = 'buttonStuff'>{childArray[2]}</div>
     </div>
   );
 };
